@@ -19,7 +19,7 @@ app.get("/refresh", async (req : Request, res : Response) => {
   }
 });
 
-app.get("/data", (req, res) => {
+app.get("/data", (req : Request, res : Response) => {
   if (!cachedData.length) {
     return res.status(400).json({ error: "Data not loaded yet. Hit /refresh first." });
   }
