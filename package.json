@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/csv-parse": "^1.2.5",
     "axios": "^1.12.2",
     "csv-parse": "^6.1.0",
     "express": "^5.1.0"
